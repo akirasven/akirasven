@@ -8,10 +8,10 @@
           font-family: Arial, sans-serif;
           line-height: 1.6;
           margin: 20px;
-          background-color: #ffffff;
+          background-color: #bfdcf9;
       }
       h2, h3 {
-          font-size: 1.5em; /* Increases font size by 1.5 times */
+          font-size: 1.5em;
       }
       /* 3D Title styling */
       .title-3d {
@@ -21,30 +21,33 @@
           text-align: center;
           text-transform: uppercase;
           letter-spacing: 5px;
+          margin-bottom: 20px;
+          display: block;
+          /* 3D shadow effect */
           text-shadow: 
-              2px 2px 0 #fff, /* light shadow */
-              4px 4px 0 #bbb, /* medium shadow */
-              6px 6px 0 #888; /* dark shadow */
+              2px 2px 0px #ffffff,  /* light shadow */
+              4px 4px 0px #bbbbbb,  /* medium shadow */
+              6px 6px 0px #888888;  /* dark shadow */
       }
       .poem {
           position: relative;
           max-width: 600px;
-          margin: 0; /* Aligns the poem to the left */
+          margin: 0;
           padding: 10px;
-          background-color: transparent; /* Removes background color */
-          border: none; /* Removes border */
-          border-radius: 0; /* Removes border radius */
+          background-color: transparent;
+          border: none;
+          border-radius: 0;
       }
       .poem-title {
           position: absolute;
-          top: -20px; /* Adjust this value to move the title closer to or farther from the poem */
+          top: -20px;
           left: 0;
-          width: auto; /* Ensures title width is not 100% */
-          text-align: left; /* Aligns title to the left */
+          width: auto;
+          text-align: left;
           font-size: 24px;
           font-weight: bold;
-          background: transparent; /* Removes background color */
-          padding: 0; /* Removes padding */
+          background: transparent;
+          padding: 0;
       }
       .photo {
           max-width: 100%;
@@ -59,90 +62,48 @@
 
 <body>
 
-<h1>Akira Kato</h1>
-<h2>Poems</h2>
-  
-<div class="poem">
-    <div class="poem-title">Black</div>
-    <p>each day the image of a<br>
-    distorted piece of art<br>
-    digs deeper,<br>
-    deeper,<br>
-    so<br>
-    deep into my mind<br>
-    i question that if i ever find the original,<br>
-    will i ever reach the surface?<br>
-    the painfully distorted portrait is<br>
-    painted into the damaged walls above my shoulders.<br>
-    The painting is awful, but I am trapped.<br>
-    my eyes are chained to this work of art.<br>
-    chained to it’s beautifully crafted imperfections.<br>
-    i need to fix it.<br>
-    ive tried to fix it,<br>
-    but nothing works.<br>
-    thousands of hours ive spent<br>
-    reworking this mural.<br>
-    over<br>
-    and over<br>
-    and over again,<br>
-    to wake and find a fresh layer of paint,<br>
-    covering the spots i fixed<br>
-    i wish that this painting would<br>
-    find an empty wall in the lourve,<br>
-    one that i would stop,<br>
-    take a photo at,<br>
-    marvel at for hours,<br>
-    and share with others.<br>
-    i will paint<br>
-    the canvas black today,<br>
-    so that my tired eyes can rest.</p>
-</div>
+  <!-- 3D Title -->
+  <h1 class="title-3d">AKIRA KATO</h1>
 
-<div class="poem">
-    <div class="poem-title">Speaking with Touch</div>
-    <p>The moonlight pours over<br>
-    Our lovers and wraps them tight,<br>
-    Like a mother who wishes<br>
-    love for Her children<br>
-    would do at night.<br><br>
+  <h2>Poems</h2>
 
-    Our lovers speak in secrets<br>
-    With their fingertips<br>
-    And feel emotion through<br>
-    Each other’s lips.<br><br>
+  <div class="poem">
+      <div class="poem-title">Black</div>
+      <p>each day the image of a<br>
+      distorted piece of art<br>
+      digs deeper,<br>
+      deeper,<br>
+      so<br>
+      deep into my mind<br>
+      i question that if i ever find the original,<br>
+      will i ever reach the surface?<br>
+      the painfully distorted portrait is<br>
+      painted into the damaged walls above my shoulders.<br>
+      The painting is awful, but I am trapped.<br>
+      my eyes are chained to this work of art.<br>
+      chained to it’s beautifully crafted imperfections.<br>
+      i need to fix it.<br>
+      ive tried to fix it,<br>
+      but nothing works.<br>
+      thousands of hours ive spent<br>
+      reworking this mural.<br>
+      over<br>
+      and over<br>
+      and over again,<br>
+      to wake and find a fresh layer of paint,<br>
+      covering the spots i fixed<br>
+      i wish that this painting would<br>
+      find an empty wall in the lourve,<br>
+      one that i would stop,<br>
+      take a photo at,<br>
+      marvel at for hours,<br>
+      and share with others.<br>
+      i will paint<br>
+      the canvas black today,<br>
+      so that my tired eyes can rest.</p>
+  </div>
 
-    Gentle fingers twirl and knead<br>
-    Through his brown strands<br>
-    As the woman cradles the mans head,<br>
-    Knowing that she is his world,<br>
-    And He is hers<br><br>
-
-    As the moments pass,<br>
-    Our two lovers feel<br>
-    The Fire for one another<br>
-    Getting hotter<br>
-    And hotter<br>
-    Until its too hot<br>
-    And the moon goes down<br>
-    and sun comes up.</p>
-</div>
-
-<h3>Photos</h3>
-<img src="FranceStatue.jpg" alt="France Statue" width="600" height="700">
-<h4>Mont-Saint-Michel, France, Circa 2019</h4>
-
-<img src="bali corn.jpg" alt="Bali Corn Stand" width="600" height="700">
-<h5 style="font-size: 1em;">Echo Beach, Bali, Indonesia, 2023</h5>
-
-<img src="bali warung.jpg" alt="Bali Warung" width="600" height="700">
-<h6 style="font-size: 1em;">Canggu, Bali, Indonesia, 2023</h6>
-
-<h3>Videos</h3>
-<video class="video" width="600" controls>
-  <source src="pismo1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+  <!-- Continue with the rest of your content -->
 </body>
 </html>
 
