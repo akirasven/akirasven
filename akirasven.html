@@ -14,6 +14,10 @@
           font-size: 1.5em;
           font-weight: bold;
       }
+      /* Ensure all headings are bold */
+      h4, h5, h6, h7, h8, h9, h10 {
+          font-weight: bold;
+      }
       /* 3D Title styling */
       .title-3d {
           font-size: 5em;
@@ -57,6 +61,18 @@
       .video {
           max-width: 100%;
           height: auto;
+      }
+      img {
+          width: 100%; /* Ensures all images are responsive */
+          height: auto;
+          margin-bottom: 10px; /* Adds space between the image and title */
+      }
+      /* Styling for titles under photos */
+      h4, h5, h6, h7, h8, h9, h10 {
+          text-align: center;
+          font-size: 1em;
+          margin-top: 5px;
+          margin-bottom: 20px;
       }
   </style>
 </head>
@@ -134,25 +150,25 @@
 </div>
 
 <h3>Photos</h3>
-<img src="FranceStatue.jpg" alt="France Statue" width="800" height="1200">
+<img src="FranceStatue.jpg" alt="France Statue">
 <h4>Mont-Saint-Michel, France, Circa 2019</h4>
 
-<img src="bali corn.jpg" alt="Bali Corn Stand" width="800" height="1200">
+<img src="bali corn.jpg" alt="Bali Corn Stand">
 <h5>Echo Beach, Bali, Indonesia, 2023</h5>
 
-<img src="bali warung.jpg" alt="Bali Warung" width="800" height="1200">
+<img src="bali warung.jpg" alt="Bali Warung">
 <h6>Canggu, Bali, Indonesia, 2023</h6>
 
-<img src="000386390011.jpg" alt="Self Indulgence in El Salvador, 2024" width="800" height="1200">
+<img src="000386390011.jpg" alt="Self Indulgence in El Salvador, 2024">
 <h7>Self Indulgence in El Salvador, 2024</h7>
 
-<img src="000386390018.jpg" alt="Cuco, Fire" width="800" height="1200">
-<h8">El Salvador, 2024</h8>
+<img src="000386390018.jpg" alt="Cuco, Fire">
+<h8>El Salvador, 2024</h8>
 
-<img src="IMG_5109.JPG" alt="Broderick, Truck" width="800" height="1200">
+<img src="IMG_5109.JPG" alt="Broderick, Truck">
 <h9>Broderick in Oceanside, 2024</h9>
 
-<img src="IMG_5111.JPG" alt="Julianne, Little Tokyo" width="800" height="1200">
+<img src="IMG_5111.JPG" alt="Julianne, Little Tokyo">
 <h10>Julianne in Little Tokyo, 2024</h10>
 
 <h3>Videos</h3>
@@ -163,3 +179,4 @@
 
 </body>
 </html>
+
